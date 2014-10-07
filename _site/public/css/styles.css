@@ -150,10 +150,13 @@ img {
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   filter: grayscale(0%);
-  border: 3px solid #fff;
   border-radius: 100px;
   padding: 0px;
   display: inline-block;
+}
+
+.site-title:hover {
+  text-decoration: none;
 }
 
 .available {
@@ -187,8 +190,10 @@ ul#portfolio {
   margin: 0 auto 50px auto; 
 	list-style: none; overflow: hidden;
 	padding-left: 0px;
+	padding: 60px;
 	padding-bottom: 10px;
 	padding-top: 10px;
+
 }
 	ul#portfolio li {
 		float: left; margin: 20px; 
@@ -399,6 +404,7 @@ a:focus {
     bottom: 0;
     right: 0;
     left: 0;
+    top: 25%;
   }
   .masthead h1 {
     font-size: 25px;
