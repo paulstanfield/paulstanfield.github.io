@@ -1,0 +1,12 @@
+title:        Paul Stanfield
+tagline:      'Paul Stanfield | Freelance Web Design Belfast'
+description:  'Web & UI Designer'
+url:          http://paulstanfield.co.uk
+version:      1.0.0.
+author:
+  name:       'Paul Stanfield'
+  email:      'hello@paulstanfield.co.uk'
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
+paginate:     6

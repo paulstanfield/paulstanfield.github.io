@@ -1,1 +1,72 @@
-Hello World
+---
+layout: default
+---
+
+
+<div class="page">
+
+ <h1>Work</h1>
+ <p class="section-excerpt">Projects I have had the pleasure of being involved in. My skill set ranges from the research and experimentation phase of design to the full scale development of responsive and adaptable interfaces.</p>
+  
+ <ul id="portfolio">
+		<!--Dribbble feed-->	
+ </ul>
+  
+</div>
+
+<hr>
+
+<h1 class="page-title">About</h1>
+  
+<p class="section-excerpt">Freelance Web &amp; UI Designer. Designer at Flowlens. Focused on creating interfaces that enhance user experience. Lover of coffee, podcasts and product design.</p>
+    
+<p>Paul Stanfield is a designer living and working in Belfast, Northern Ireland. With degrees in Creative Multimedia and Interactive Multimedia Design. He has experience in both studio, startup and freelance environments, working with companies such as <a href="http:flowlens.com">Flowlens (Crafty Devil)</a>, <a href="http://placespeak.com">PlaceSpeak</a>, <a href="http://visionworksinteractive.co.uk/">Visionworks Interactive</a>, <a href="http://lifeforms.ie/">Life Forms Design </a>and <a href="http://mettecreates.com">Mette Creates</a>. His experiences have allowed him to design and develop a range of projects with clients large and small, including Dale Farm, Compass FA, Kiverco and CDE Global. He currently works as a designer for Flowlens as well as running an independent freelance business.</p>
+  
+<p>Paul offers a wide range of services from website design and development that enhances lead generation and engagement to UI/UX design for applications looking an intuitive and organic experience. What to work with him? <a href="mailto:hello@paulstanfield.co.uk">Get In Touch</a></a>.</p>
+
+<hr>
+
+<div class="page">
+
+  <h1 class="page-title">Blog</h1>
+
+  <p class="section-excerpt">A small corner of the web dedicated to my insights into my creative process, business experiences and general interests.</p>
+
+</div>
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h2>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+     {{ post.excerpt }}
+    <p class="readmore"><a href="{{ post.url }}">Read More</a></p>
+<hr>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}" class="older">Older Posts</a>
+  {% else %}
+    <span class="next">Older Posts</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a href="/" class="newer">Newer Posts</a>
+    {% else %}
+      <a href="/page{{paginator.previous_page}}" class="newer">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="previous">Newer Posts</span>
+  {% endif %}
+</div>
+
+

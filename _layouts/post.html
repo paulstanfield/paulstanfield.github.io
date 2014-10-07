@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1>{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+  {{ content }}
+</div>
+
+<div class="postedby">
+  <h2>Posted By <a href="/index.html">Paul Stanfield</a></h2>
+  <h3>Freelance Web & UI Designer. Designer at Flowlens. Focused on creating interfaces that enhance user experience. Lover of coffee, podcasts and product design.<h3>
+  <p><span class="forhire">Available for hire</span>. <a href="/index.html">Find Out More</a></p>
+</div>
+
+<div class="related">
+<hr>
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+          <small>- {{ post.date | date_to_string }}</small>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
