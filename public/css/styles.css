@@ -640,3 +640,15 @@ a:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+@media only screen and (max-width: 767px) {
+  .profile-pic {
+    display: none !important;
+  }
+  ul#portfolio {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+}
+
