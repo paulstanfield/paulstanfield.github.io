@@ -646,8 +646,8 @@ a:focus {
     display: none !important;
   }
   ul#portfolio {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
 }
