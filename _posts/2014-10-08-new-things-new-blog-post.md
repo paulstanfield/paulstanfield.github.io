@@ -4,7 +4,7 @@ title: New Things, New Blog
 excerpt:  I’ve been trying to incorporate more productive things into my routine both in my work and personal life. Hopefully this blog will give a bit of an insight into the up’s and down’s of how it all pan’s out.
 ---
 
-Like most people who have a keen interest in something whether it be in their work or personal life, the notion of ‘Why don’t I start a blog?’ often creeps to mind once a while without ever leading to any real end product. Recently I’ve been toying with this idea back and forth myself with the usual negative concerns associated with it of ‘Will I post regularly?’, ‘Is it really worth the hassle? etc etc.
+Like most people who have a keen interest in something whether it be in their work or personal life, the notion of ‘Why don’t I start a blog?’ often creeps to mind once a while without ever leading to any real end product. Recently I’ve been toying with this idea back and forth with the usual negative concerns associated with it of "Will I post regularly?", "Is it really worth the hassle?" etc etc.
 
 Instead of focusing on the things which inevitably hold us back from doing things, I’ve decided to get of the sofa from playing another round of video games and actually start the blog, it might not lead to anything, but you’ll never know where something will go unless you give it a fair old try.
 
