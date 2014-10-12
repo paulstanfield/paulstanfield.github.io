@@ -4,11 +4,11 @@ title: Top Work Related iPhone Apps
 excerpt: Some of the top iPhone apps I'm using for design and business purposes.
 ---
 
-The iPhones great for checking the ridiculous amount of social media accounts people have, consuming all those viral youtube videos and checking out the latest addictive game that has taken the App Store by storm. I also use my iPhone quite heavily to keep on top of things in my working life, wether that be gaining inspiration for the next design project or keeping on top of my freelance business. Check out some of the app’s that are currently helping me along the way.
+The iPhones great for checking the ridiculous amount of social media accounts people have, consuming all those viral youtube videos and checking out the latest addictive game that has taken the App Store by storm. I also use my iPhone quite heavily to keep on top of things in my working life, whether that be gaining inspiration for the next design project or keeping on top of my freelance business. Check out some of the app’s that are currently helping me along the way.
 
 ##Things
 
-With multiple projects on the go and different tasks being associated with them at varying deadline dates a simple to do list app just isn’t cutting it for me. Things solves this problem by allowing me to make detailed project lists and notes for all things relating to a project. I’ve tried out a few apps like this in the past but Things ticks all the boxes in terms of price, usability and iCloud syncing. Having it on my home screen on my iPhone gives me a constant reminder of what needs done and with the added refresh to the UI and increased use of notifications that has just been rolled out for iS 8, the app has just got a whole lot better!
+With multiple projects on the go and different tasks being associated with them at varying deadline dates a simple to do list app just isn’t cutting it for me. Things solves this problem by allowing me to make detailed project lists and notes for all things relating to a project. I’ve tried out a few apps like this in the past but Things ticks all the boxes in terms of price, usability and iCloud syncing. Having it on my home screen on my iPhone gives me a constant reminder of what needs done and with the added refresh to the UI and increased use of notifications that has just been rolled out for iOS 8, the app has just got a whole lot better!
 
 <figure class="half">
 	<img src="/assets/imgs/oct14/things1.jpeg" alt="">
@@ -64,7 +64,7 @@ Buffer is a great app for keeping on top of your social media presence, allowing
 
 ##Ember
 
-I use Ember for Mac extensively for inspiration gathering and research, it acts as my main information hub and go to for kicking of new projects and for those annoying moments when creative block kicks in. The iOS app from Ember brings this experience over to the iPhone and is a great little tool to have out and about for those gems of inspiration you come across which you want to quickly save to your library.
+I use Ember for Mac extensively for inspiration, gathering and research, it acts as my main information hub and go to for kicking off new projects and for those annoying moments when creative block kicks in. The iOS app from Ember brings this experience over to the iPhone and is a great little tool to have out and about for those gems of inspiration you come across which you want to quickly save to your library.
 
 <figure class="half">
 	<img src="/assets/imgs/oct14/ember1.jpeg" alt="">
