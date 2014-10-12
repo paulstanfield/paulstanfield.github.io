@@ -384,8 +384,9 @@ a:focus {
   figure.half img {
     float: left;
     width: 310px;
-    margin: 20px;
-    margin-bottom: 40px;
+    margin: 42px;
+    margin-bottom: 60px;
+    border: 1px solid #ececec;
   }
   figure.half figcaption {
     clear: right;
@@ -413,7 +414,7 @@ a:focus {
     bottom: 0;
     right: 0;
     left: 0;
-    top: 25%;
+    top: 20%;
   }
   .masthead h1 {
     font-size: 25px;
@@ -438,6 +439,7 @@ a:focus {
 @media (min-width: 990px) {
   .content {
     padding: 60px 0;
+    padding-bottom: 20px;
   }
   .container {
     width: 55%;
@@ -473,7 +475,7 @@ a:focus {
 /* Related posts */
 .related {
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   border-top: 1px solid #eee;
 }
 .related-posts {
@@ -648,6 +650,23 @@ a:focus {
     padding-left: 30px;
     padding-right:30px;
   }
+  .available {
+    border: none;
+    padding: 10px;
+  }
+  .available:hover a {
+  color: #fff !important; 
+  }
+  .available:hover {
+  background-color: #8F393A !important;
+  color: #fff !important; 
+  }
+  .masthead-inner {
+    padding: 0px;
+    padding-top: 20px;
+  }
 
 }
+
+
 
