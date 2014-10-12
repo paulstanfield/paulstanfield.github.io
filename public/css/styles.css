@@ -665,6 +665,17 @@ a:focus {
     padding: 0px;
     padding-top: 20px;
   }
+   figure.half img {
+    float: left;
+    width: 300px;
+    margin: 0px;
+    margin-bottom: 60px;
+    border: 1px solid #ececec;
+  }
+  figure.half figcaption {
+    clear: right;
+  }
+
 
 }
 
