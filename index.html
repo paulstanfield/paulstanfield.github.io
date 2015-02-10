@@ -50,7 +50,7 @@
     ga('send', 'pageview');
     </script>
 
-    
+
         <!-- Hammer reload -->
           <script>
             setInterval(function(){
@@ -59,11 +59,11 @@
                 ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
                 ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
                 ws.onmessage = function(){
-                  var links = document.getElementsByTagName('link'); 
-                    for (var i = 0; i < links.length;i++) { 
-                    var link = links[i]; 
-                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
-                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                  var links = document.getElementsByTagName('link');
+                    for (var i = 0; i < links.length;i++) {
+                    var link = links[i];
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) {
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,'');
                       link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
                     }
                   }
@@ -72,7 +72,7 @@
             }, 1000)
           </script>
         <!-- /Hammer reload -->
-      
+
 
 </head>
 
@@ -234,7 +234,7 @@
 
 <p>Paul offers a wide range of services from website design and development that enhances lead generation and engagement to UI/UX design for applications looking an intuitive and organic experience. Services that he focuses on include UI/UX design, web design, front end development and branding.</p>
 
-            <p>Want To Find Out More About Paul?<a href="mailto:hello@paulstanfield.co.uk?subject=CV Request" class="btn btn-alternative">Request His CV</a></p>
+            <p>Want To Find Out More About Paul?<a href="/cv.pdf" class="btn btn-alternative">View His CV</a></p>
           </div>
 
           <div class="col-md-4 blog-excerpts">
