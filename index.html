@@ -47,7 +47,7 @@
     ga('send', 'pageview');
     </script>
 
-    
+
         <!-- Hammer reload -->
           <script>
             setInterval(function(){
@@ -56,11 +56,11 @@
                 ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
                 ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
                 ws.onmessage = function(){
-                  var links = document.getElementsByTagName('link'); 
-                    for (var i = 0; i < links.length;i++) { 
-                    var link = links[i]; 
-                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
-                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                  var links = document.getElementsByTagName('link');
+                    for (var i = 0; i < links.length;i++) {
+                    var link = links[i];
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) {
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,'');
                       link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
                     }
                   }
@@ -69,7 +69,7 @@
             }, 1000)
           </script>
         <!-- /Hammer reload -->
-      
+
 
 </head>
 
@@ -172,6 +172,7 @@
           </div>
           <div class="col-md-6">
             <h4>Flowlens</h4>
+
             <p>As Web Designer at Flowlens I designed and developed their new website, which was part of the renaming and rebranding of the company. I play a key role in the ongoing design and development of the Flowlens software to improve and build out core features.</p>
             <a href="http://www.flowlens.com" target="blank" class="btn btn-secondary">View Project</a>
           </div>
