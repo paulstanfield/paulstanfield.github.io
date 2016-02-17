@@ -1,0 +1,4 @@
+# Logfile created on 2016-02-10 16:49:41 +0000 by logger.rb/44203
+I, [2016-02-10T16:49:41.095401 #21298]  INFO -- : 0:  jekyll-feed (0.4.0) from /Users/Paul/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/jekyll-feed-0.4.0.gemspec
+I, [2016-02-10T16:49:42.110342 #21298]  INFO -- : 0:  jekyll-paginate (1.1.0) from /Users/Paul/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/jekyll-paginate-1.1.0.gemspec
+I, [2016-02-10T16:49:42.110725 #21298]  INFO -- : 0:  bundler (1.5.1) from /Users/Paul/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/bundler-1.5.1.gemspec
